@@ -1,9 +1,13 @@
-package ntnu.appdev.jdbcconnection;
+package ntnu.appdev.jdbcconnection.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.time.LocalDate;
 
+@Entity
 public class Project {
 
+    @Id
     private int projectId;
     private String name;
     private String leader;

@@ -1,5 +1,7 @@
 package ntnu.appdev.jdbcconnection;
 
+import ntnu.appdev.jdbcconnection.entity.Project;
+import ntnu.appdev.jdbcconnection.entity.ProjectInfo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
